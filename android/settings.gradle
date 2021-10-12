@@ -1,0 +1,25 @@
+rootProject.name = 'rn_template'
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+include ':@react-native-firebase_crashlytics'
+project(':@react-native-firebase_crashlytics').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-firebase/crashlytics/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':react-native-orientation'
+project(':react-native-orientation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-orientation/android')
+include ':@react-native-firebase_analytics'
+project(':@react-native-firebase_analytics').projectDir = new File(rootProject.projectDir, './../node_modules/@react-native-firebase/analytics/android')
+include ':react-native-smtp-mailer'
+project(':react-native-smtp-mailer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-smtp-mailer/android')
+include ':@react-native-community_viewpager'
+project(':@react-native-community_viewpager').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/viewpager/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':watermelondb'
+project(':watermelondb').projectDir =
+    new File(rootProject.projectDir, '../node_modules/@nozbe/watermelondb/native/android')
+include ':app'
+include ':app', ':react-native-code-push'
+project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
+
+include ':react-native-device-battery'
+project(':react-native-device-battery').projectDir = new File(settingsDir, '../node_modules/react-native-device-battery/android')

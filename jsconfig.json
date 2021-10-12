@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./Source/",
+    "paths": {
+      "@navigators": ["Navigators/"],
+      "@components": ["Components/"],
+      "@services": ["Services/"],
+      "@images": ["Resources/Images/"],
+      "@icons": ["Resources/Icons/"],
+      "@data": ["Resources/Data/"],
+      "@fonts": ["Resources/Fonts/"],
+      "@helpers": ["Helpers/"],
+      "@state": ["State/"],
+      "@themes": ["Themes/"],
+      "@screens": ["Screens/"],
+      "@localization": ["Localization/"],
+      "@constants": ["Constants/"],
+      "@db": ["db/"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

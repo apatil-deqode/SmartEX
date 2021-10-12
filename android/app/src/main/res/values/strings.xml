@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Smartex</string>
+    <string name="admin_receiver_status">Status Now:</string>
+    <string name="admin_receiver_status_enabled">Enabled</string>
+    <string name="admin_receiver_status_disable_warning">Disable Requested</string>
+    <string name="admin_receiver_status_disabled">Disabled</string>
+    <string name="admin_receiver_status_pw_changed">Password Changed</string>
+    <string name="receiver_label">Smartex</string>
+    <string name="receiver_desc">Allow Smartex to restrict you from navigating to different apps.</string>
+</resources>

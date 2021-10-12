@@ -1,0 +1,23 @@
+export const Events = {
+  LOGIN: 'login',
+  MANUAL_LOGIN: 'manual_login',
+  ENABLE_MACHINE: 'enable_machine',
+  DISABLE_MACHINE: 'disable_machine',
+  CHANGE_LANGUAGE: 'change_language',
+  SAVE_SETTINGS: 'save_settings',
+  SCAN_QR: 'scan_qr',
+  CUT_ROLL_BUTTON: 'cut_roll_button',
+  ADD_FABRIC_BUTTON: 'add_fabric_button',
+  CREATE_NEW_YARN: 'create_new_yarn',
+  REPORT_ISSUE: 'report_issue',
+  UPDATE_PRODUCING_NUMBER: 'update_producing_number',
+  QR_READ: 'qr_read',
+  GET_FABRIC_LIST: 'get_fabric_list',
+  CUT_ROLL_REQUEST: 'cut_roll_request',
+  CREATE_STRUCTURE: 'create_structure',
+  CREATE_COLOR: 'create_color',
+  CREATE_YARN_TYPE: 'create_yarn_type',
+  GET_YARN_DATA: 'get_yarn_data', //structures, density units, colors and types
+  CREATE_FABRIC: 'create_fabric',
+  DEFECT_STOP: 'defect_stop',
+};
